@@ -80,3 +80,6 @@
 .open-post__photo {
   position: relative;
 }
+.main-screen {
+  height: 150vh;
+}

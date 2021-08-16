@@ -40,7 +40,40 @@
 
     <main class="main-screen main-chat">
       <div class="chat__timestamp">2021.08.11, 수</div>
+      <div class="message-row">
+        <img src="사진.jpg" />
+        <div class="message-row__content">
+          <span class="message-author">Kenny</span>
+          <div class="message-info">
+            <span class="message-bubble">Hello!</span>
+            <span class="message-time">12:34</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message-info">
+            <span class="message-bubble">Hi!</span>
+            <span class="message-time">12:34</span>
+          </div>
+        </div>
+      </div>
     </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메시지를 입력하세요" />
+        <i class="far fa-smile-beam fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Your Screen is too big!</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/669a098ff3.js"
